@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Gzt Web site</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #1f2937;
+    }
+
+    header {
+      padding: 20px 32px;
+      background: #ffffff;
+      border-bottom: 1px solid #dbe3ef;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #1f2937;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #2563eb;
+    }
+
+    main {
+      padding: 48px 32px;
+    }
+
+    section {
+      width: min(960px, 100%);
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      text-align: center;
+      font-size: 40px;
+    }
+
+    p {
+      max-width: 620px;
+      margin: 0 auto 28px;
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 18px;
+    }
+
+    .gallery-item {
+      min-height: 160px;
+      display: grid;
+      place-items: center;
+      padding: 20px;
+      background: #ffffff;
+      border: 1px solid #dbe3ef;
+      border-radius: 8px;
+      color: #475569;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .gallery-item:nth-child(1) {
+      background: #e0f2fe;
+    }
+
+    .gallery-item:nth-child(2) {
+      background: #dcfce7;
+    }
+
+    .gallery-item:nth-child(3) {
+      background: #fef3c7;
+    }
+
+    .gallery-item:nth-child(4) {
+      background: #fee2e2;
+    }
+
+    .gallery-item:nth-child(5) {
+      background: #ede9fe;
+    }
+
+    .gallery-item:nth-child(6) {
+      background: #ccfbf1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Gallery</h1>
+      <p>Use this page to show photos, projects, products, or other highlights from your website.</p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">Gallery Image 1</div>
+        <div class="gallery-item">Gallery Image 2</div>
+        <div class="gallery-item">Gallery Image 3</div>
+        <div class="gallery-item">Gallery Image 4</div>
+        <div class="gallery-item">Gallery Image 5</div>
+        <div class="gallery-item">Gallery Image 6</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
