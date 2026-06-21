@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ | Gzt Web site</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #1f2937;
+    }
+
+    header {
+      padding: 20px 32px;
+      background: #ffffff;
+      border-bottom: 1px solid #dbe3ef;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #1f2937;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #2563eb;
+    }
+
+    main {
+      min-height: calc(100vh - 65px);
+      display: grid;
+      place-items: center;
+      padding: 32px;
+    }
+
+    section {
+      width: min(720px, 100%);
+    }
+
+    h1 {
+      margin: 0 0 24px;
+      text-align: center;
+      font-size: 40px;
+    }
+
+    details {
+      margin-bottom: 14px;
+      padding: 18px 20px;
+      background: #ffffff;
+      border: 1px solid #dbe3ef;
+      border-radius: 8px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 12px 0 0;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Frequently Asked Questions</h1>
+
+      <details open>
+        <summary>What is this website about?</summary>
+        <p>This website is a simple starter site with pages for home, about, contact, and frequently asked questions.</p>
+      </details>
+
+      <details>
+        <summary>How can I contact you?</summary>
+        <p>You can visit the Contact page and use the email link provided there.</p>
+      </details>
+
+      <details>
+        <summary>Can I edit the page content?</summary>
+        <p>Yes. You can replace the sample text with your own information, services, business details, or personal content.</p>
+      </details>
+
+      <details>
+        <summary>Does this website need an internet connection?</summary>
+        <p>No. These HTML files can open directly in a browser from your computer.</p>
+      </details>
+    </section>
+  </main>
+</body>
+</html>
